@@ -22,7 +22,7 @@ class Solution:
             
             - Time Complexity: O(n^2) because for each element, we iterate through all of the other elements. 
             - Space complexity: O(1), as the algorithm uses only a fixed amount of extra space
-        '''`
+        '''
         '''
         2. Two Pointer Approach (Converging) - Optimal Approach
             - Initialize two pointers at the beginning and end of the height array. Calculate the current area with the minimum height
