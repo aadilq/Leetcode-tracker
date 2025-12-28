@@ -28,7 +28,7 @@ class Solution:
         '''
         1. fast & slow pointer approach 
             - Treating the array as a linked list where nums[i] points to the index nums[i] and since there is a duplicate value, multiple indices will be pointing to the same value. This creates a cycle in our linked list. 
-            1. Phase 1: Detecting if a cycle exists
+            1. Phase 1: Proves that a cycle exists
             2. Phase 2: Finding the cycle entrance (entrance is where the duplicate number exists)
             - Time Complexity: O(n) where n is the length of the array as each element is visited at most 2-3 times
             - Space Complexity: O(1) since we are only using a few pointers that don't rely on the size of the array
