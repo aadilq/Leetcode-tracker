@@ -31,7 +31,7 @@ class Solution:
         '''
         1. Fixed Separation
             - we use two pointers that are separated by n. when fast reaches null, our slow pointer will be pointing towards the node that we want to remove. We use a DummyNode to bypass the testcases in which we only have one or two nodes. 
-               - Time Complexity: 
+               - Time Complexity: O(n) where n is the number of nodes in the linked lists. this is because the fast pointer wi
                - Space Complexity: 
         '''
 
