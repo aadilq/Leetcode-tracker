@@ -20,7 +20,7 @@ class Solution:
         '''
         1. Two Pointers + Expanding from center
             - in order to find the longest palindromic substring, we can treat every single character in our string as the middle character. for odd palindromic substrings, we initialize two pointers, left and right at the character and expand outwards. we update the maximum palindromic substring we have found so far. so even palindromic substrings, we initialize our left and right pointers to be at the current character and the character to the right of it because we have to have two adjacent characters be the same. 
-            - Time Complexity: O(n) where n is the length of the input string. this because we iterate through each character in the input string and we treat each character as the middle character in find palindromic substrings. 
+            - Time Complexity: O(n^2) where n is the length of the input string. this because we iterate through each character in the input string and we treat each character as the middle character and the inner while loops expand outward to check for palindromes. In the worst case, each expansion can go up to the entire length of the string.
             - Space Complexity: O(1) since we are not using any additional data structures, only a few ptrs to find the palindromic substrings within our string.
         '''
         res = ""
