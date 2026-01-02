@@ -1,0 +1,1 @@
+solution.removeStars("leet**cod*e")
