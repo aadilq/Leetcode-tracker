@@ -57,4 +57,4 @@ class Solution:
             res = max(res, curr)
         return res
 solution = Solution()
-print(solution.fruitsInBasket([[1,2,3,2,2]]))
+print(solution.fruitsInBasket([1,2,3,2,2]))
