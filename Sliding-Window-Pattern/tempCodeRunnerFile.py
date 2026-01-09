@@ -1,1 +1,0 @@
- count.get(fruits[R], 0) 
