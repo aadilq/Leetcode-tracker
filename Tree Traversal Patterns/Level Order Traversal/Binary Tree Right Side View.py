@@ -40,7 +40,7 @@ class Solution:
         1. Level Order Traversal
             - to get the right node val for each row if a left node val does exist, otherwise the left node. we can use a level order traversal where we initialize a variable called rightSide. everytime we pop a node from our queue, we assign rightSide to that node, essentially allowing the most right node to be assigned to rightSide
             - Time Complexity: O(n) where n is the number of nodes in our binary. We process each node at most twice, once when adding it the queue and removing it from the queue. 
-            - Space Complexity: 
+            - Space Complexity: O(n) In the worst case (a complete binary tree), the maximum number of nodes stored at any level is roughly N/2.
         '''
         if not root:
             return []
